@@ -10,4 +10,10 @@ jobs:
           run: mkdir pracrtice
         - name: listing directory
           run:  ls
+        - name: creating a file
+          run:  touch info.txt
+        - name: copying a file to a folder
+          run: cp info.txt pracrtice
+        - name: listing files in a folder
+          run: ls
 
