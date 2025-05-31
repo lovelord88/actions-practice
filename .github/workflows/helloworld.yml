@@ -12,5 +12,7 @@ jobs:
           run: |
             chmod +x variables.sh
             ./variables.sh
+        - name: Checking the content of variables.sh
+          run:  cat variables.sh
 
 
