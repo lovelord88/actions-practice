@@ -6,4 +6,6 @@ jobs:
         steps: 
         - name:  welcome message
           run: echo "life is dicy"
+        - name: make adirectory
+          run: mkdir pracrtice
 
