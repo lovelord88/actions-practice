@@ -9,6 +9,8 @@ jobs:
         - name: listing files
           run: touch variables.sh
         - name: running a shell script
-          run: ./variables.sh
+          run: |
+            chmod +x variables.sh
+            ./variables.sh
 
 
