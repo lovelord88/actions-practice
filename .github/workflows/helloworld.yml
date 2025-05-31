@@ -3,7 +3,9 @@ on: push
 jobs: 
     my_first_job:
         runs-on: Ubuntu-latest
-        steps: 
+        steps:
+        - name: checkout repo
+          uses:  actions/checkout@v4
         - name:  welcome message
           run: echo "life is dicy"
         - name: make adirectory
