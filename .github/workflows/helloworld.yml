@@ -7,12 +7,5 @@ jobs:
         - name: checkout repo
           uses:  actions/checkout@v4
         - name: listing files
-          run: touch variables.sh
-        - name: running a shell script
-          run: |
-            chmod +x variables.sh
-            ./variables.sh
-        - name: Checking the content of variables.sh
-          run:  cat variables.sh
-
-
+          run: ls -la
+        
