@@ -9,6 +9,6 @@ jobs:
         - name: listing files
           run: ls -ltra
         - name: running a shell script
-          run: variables.sh
-          
+          run: ./variables.sh
+
 
