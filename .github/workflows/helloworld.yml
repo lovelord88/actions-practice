@@ -6,6 +6,8 @@ jobs:
         steps:
         - name: checkout repo
           uses:  actions/checkout@v4
+        - name: listing files
+          run: ls -ltra
         - name: running a shell script
           run:  |
              chmod +x variables.sh
