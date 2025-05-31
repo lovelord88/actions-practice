@@ -1,0 +1,9 @@
+name: hello world
+on: push
+jobs: 
+    my_first_job:
+        runs-on: Ubuntu-latest
+        steps: 
+        - name:  welcome message
+          run: echo"life is dicy"
+
