@@ -11,7 +11,7 @@ jobs:
         - name: make adirectory
           run: mkdir pracrtice
         - name: listing directory
-          run:  ls
+          run:  ls -ltra
         - name: creating a file
           run:  touch info.txt
         - name: copying a file to a folder
