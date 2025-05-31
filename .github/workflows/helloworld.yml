@@ -18,4 +18,8 @@ jobs:
           run: cp info.txt pracrtice
         - name: listing files in a folder
           run: ls
+        - name: running a shell script
+          run:  |
+             chmod +x
+             ./variables.sh
 
